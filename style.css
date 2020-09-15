@@ -1,0 +1,57 @@
+body {
+    background-color: #6699CC;
+}
+
+.header {
+    background-color: #F2F2F2;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 700px;
+    padding-right: 700px;
+}
+
+.footer {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.games {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.game h3 {
+    position: relative;
+}
+
+.game h3 {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+   opacity: 0;
+}
+
+.game img:hover {
+    opacity: 0.85;
+}
+
+.game h3:hover {
+    opacity:1;
+    color:#FFD700;
+}
+
+.menu {
+    margin-right: 40px;
+    margin-left: 400px;
+}
+
+.menu h2{
+    color: #FFD700;
+}
+
+h3, h2, p{
+    color: #D3D3D3;
+    text-align: center;
+}
+
